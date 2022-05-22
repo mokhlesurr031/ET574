@@ -3,7 +3,7 @@ import io
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('content/word_cloud.csv', encoding='latin-1')
+df = pd.read_csv('https://raw.githubusercontent.com/mokhlesurr031/ET574/master/content/word_cloud.csv', encoding='latin-1')
 
 comment_words = ''
 stopwords = set(STOPWORDS)
